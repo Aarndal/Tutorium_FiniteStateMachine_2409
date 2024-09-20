@@ -3,9 +3,8 @@
 #include <iostream>
 #include "StateMachine.h"
 
-class BaseState
+struct BaseState
 {
-public:
 	virtual void EnterState(StateMachine& _context) = 0;
 	virtual void Update(StateMachine& _context) = 0;
 	virtual void CheckState(StateMachine& _context) = 0;

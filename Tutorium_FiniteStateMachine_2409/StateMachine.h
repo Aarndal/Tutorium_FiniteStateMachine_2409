@@ -4,7 +4,6 @@
 
 class BaseState;
 class Room1;
-enum States;
 
 class StateMachine
 {
