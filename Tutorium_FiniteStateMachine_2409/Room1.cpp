@@ -8,7 +8,7 @@ void Room1::EnterState(StateMachine& _context)
 
 void Room1::Update(StateMachine& _context)
 {
-	std::cout << "EnterRoom1" << std::endl;
+	std::cout << "UpdateRoom1" << std::endl;
 }
 
 void Room1::CheckState(StateMachine& _context)
@@ -18,5 +18,5 @@ void Room1::CheckState(StateMachine& _context)
 
 void Room1::ExitState(StateMachine& _context)
 {
-	std::cout << "EnterRoom1" << std::endl;
+	std::cout << "ExitRoom1" << std::endl;
 }

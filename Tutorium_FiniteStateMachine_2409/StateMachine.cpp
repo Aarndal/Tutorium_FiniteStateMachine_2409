@@ -18,9 +18,13 @@ void StateMachine::StartGame()
 
 void StateMachine::Update()
 {
-
+	curState->Update(*this);
+	curState->CheckState(*this);
 }
 
 void StateMachine::SwitchState(BaseState* _newState)
 {
+	curState->ExitState(*this);
+	curState = _newState;
+	curState->EnterState(*this);
 }
