@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="Room1.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
     <ClCompile Include="Tutorium_FiniteStateMachine_2409.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="Room1.h" />
+    <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
